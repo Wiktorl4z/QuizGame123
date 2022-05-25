@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/katarina_main"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.danielsawicki.quizapp.activities.MainMenu">
+
+    <EditText
+        android:id="@+id/edit_text_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:hint="@string/put_your_name_here"
+        android:textColor="@color/colorYellow"
+        android:textColorHighlight="@color/colorYellow"
+        android:textColorHint="@color/colorYellow" />
+
+    <Button
+        android:id="@+id/championButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:enabled="false"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/my_button"
+        android:text="@string/champions" />
+
+    <Button
+
+        android:id="@+id/itemButton"
+        android:layout_width="wrap_content"
+        android:enabled="false"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/my_button"
+        android:text="@string/Items" />
+
+    <Button
+        android:id="@+id/spellsButton"
+        android:layout_width="wrap_content"
+        android:enabled="false"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/my_button"
+        android:text="@string/Spells" />
+</LinearLayout>
